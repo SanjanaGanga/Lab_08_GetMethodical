@@ -171,7 +171,7 @@ public class SafeInput {
         System.out.println();
 
         // Center row calc
-        System.out.print("*");
+        System.out.print("***");
 
         int msgLength = msg.length();
         int totalSpacesNeeded = availableSpace - msgLength;
@@ -192,7 +192,7 @@ public class SafeInput {
             System.out.print(" ");
         }
 
-        System.out.println("*"); // Print ending 3 stars
+        System.out.println("***"); // Print ending 3 stars
 
         // Bottom row of asterisks
         for (int i = 0; i < totalWidth; i++) {
